@@ -11,9 +11,18 @@ plugins:
       material_alternate: true
       nav_translations:
         en:
-          Comunicaciones con entorno industrial en Node-RED: Comms
-          Bienvenida: Welcome
+          Bienvenido: Welcome
           Introducción: Introduction
-          Maquinas virtuales: Virtual machines
-          IIot y comunicaciones: IIoT and Communications
+            - Descripción: Description
+            - Recursos: Resources
+          Máquinas virtuales: Virtual machines
+            - Creación VMS: VMS creation
+            - Softwares: Softwares
+          IIoT y comunicaciones: IIoT and communications
+            - InfluDB: InfluxDB
+            - Node-RED: Node-RED
+            - Comunicaciones Node RED: Node-RED communications
+            - Grafana: Grafana
           Aplicación de IIoT: IIoT application
+            - Matlab: Matlab
+            - Dashboard datos Matlab: Dashboard data Matlab

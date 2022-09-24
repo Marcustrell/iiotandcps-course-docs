@@ -1,6 +1,16 @@
 nav:
-    - Bienvenida: index.*.md
-    - Introducción: 1-intro
-    - Maquinas virtuales: 2-vms
-    - IIot y comunicaciones: 3-iiot
-    - Aplicación de IIoT: 4-app
+    - Bienvenido: index.*.md
+    - Introducción: 1 Intro
+        - Descripción: Descripción del proyecto.*.md
+        - Recursos: Recursos disponibles.*.md
+    - Máquinas virtuales: 2 VMS
+        - Creación VMS: 1 Creación máquina virtual.*.md
+        - Softwares: 2 Instalación de softwares.*.md
+    - IIoT y comunicaciones: 3 IIoT
+        - InfluxDB: 1 Gestión y uso de base de datos InfluxDB.*.md
+        - Node-RED: 2 Programación Node-RED.*.md
+        - Comunicaciones Node-RED: 3 Comunicaciones con entorno industrial en Node-RED.*.md
+        - Grafana: 4 Dashboard de visualización de datos en Grafana.*.md
+    - Aplicación de IIoT: 4 App
+        - Matlab: 1 Procesado de datos en Matlab.*.md
+        - Dashboard datos Matlab: 2 Dashboard de visualización de datos almacenados.*.md
