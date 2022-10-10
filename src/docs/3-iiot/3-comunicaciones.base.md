@@ -21,6 +21,7 @@ Again, as in the first part of the project, the design of the Node-RED *flow* wi
 The use of *debug* blocks is recommended to validate each step of the process.
 ## Inject block
 Este tipo de bloque ya se introdujo en la primera parte del proyecto**, por ello solo indicamos que inicialmente lo configuréis con accionamiento manual,** es decir, que no genere pulsos de forma periódica.
+
 ## Function block before Modbus Flex Getter block
 This *function* block is used to configure the *payload* of the message received by the *Modbus Flex Getter* block with specific parameters so that the latter can read the data stored by the PLC with which we want to communicate.
 
@@ -53,6 +54,7 @@ It is important to note that each parameter is passed as an unsigned integer. Fo
 |3|6,7|*Mean*|
 
 Once the function block has been configured, it will also be necessary to configure the *Modbus Flex Getter* block to validate that both blocks work correctly.
+
 ## Modbus Flex Getter block
 The *Modbus Flex Getter* block, of the Modbus package, allows receiving data from devices that communicate using the Modbus TCP/IP protocol, such as the PLC that stores the parameters measured by the vibration sensor.
 

@@ -59,7 +59,6 @@ Click Apply in the top right corner of the screen to save the panel changes you'
 
 <!-- [es] -->
 
-# Visualización de datos en Grafana
 
 Con los contenedores levantados, podréis acceder mediante vuestro navegador al contenedor que contiene Grafana utilizando la siguiente URL:
 

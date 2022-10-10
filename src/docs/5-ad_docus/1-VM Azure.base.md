@@ -4,6 +4,12 @@
 
 # Virtual machines (VMs) and Azure
 
+<!-- [es] -->
+
+# Máquinas virtuales (VM) y Azure
+
+<!-- [en] -->
+
 The information provided below is intended to be complementary to the project script and is not required reading.
 
 ## Motivation
@@ -40,7 +46,6 @@ Specifically, the following link refers to virtual machines with Linux operating
 
 <!-- [es] -->
 
-# Máquinas virtuales (VM) y Azure
 La información que se aporta a continuación pretende ser complementaria al guion del proyecto y no es de lectura obligatoria.
 
 ## Motivación

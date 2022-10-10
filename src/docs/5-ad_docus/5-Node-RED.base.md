@@ -4,6 +4,12 @@
 
 # Programming of communication flows: Node-RED
 
+<!-- [es] -->
+
+# Programación de flujos de comunicación: Node-RED 
+
+<!-- [en] -->
+
 The information provided below is intended to be complementary to the project script and is not required reading.
 ## Motivation
 
@@ -60,8 +66,6 @@ Node-RED is currently capable of managing data flows through widely used protoco
 Therefore, any application that uses these protocols is likely to be implemented on Node-RED.
 
 <!-- [es] -->
-
-# Programación de flujos de comunicación: Node-RED 
 
 La información que se aporta a continuación pretende ser complementaria al guion del proyecto y no es de lectura obligatoria.
 

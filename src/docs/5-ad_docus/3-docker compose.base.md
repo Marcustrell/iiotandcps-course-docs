@@ -4,6 +4,12 @@
 
 # Docker y Docker Compose
 
+<!-- [es] -->
+
+# Docker y Docker Compose
+
+<!-- [en] -->
+
 The information provided below is intended to be complementary to the project script and is not required reading.
 
 ## Motivation
@@ -47,8 +53,6 @@ You can find all the documentation regarding Docker Compose at the following lin
 <https://docs.docker.com/compose/>
 
 <!-- [es] -->
-
-# Docker y Docker Compose
 
 La información que se aporta a continuación pretende ser complementaria al guion del proyecto y no es de lectura obligatoria.
 

@@ -4,6 +4,12 @@
 
 # Dashboard in real time: Grafana
 
+<!-- [es] -->
+
+# Dashboard en tiempo real: Grafana 
+
+<!-- [en] -->
+
 The information provided below is intended to be complementary to the project script and is not required reading.
 
 ## Motivation
@@ -35,8 +41,6 @@ An example would be the two configurations shown below:
 ![](img/6_2.png){: .center}
 
 <!-- [es] -->
-
-# Dashboard en tiempo real: Grafana 
 
 La información que se aporta a continuación pretende ser complementaria al guion del proyecto y no es de lectura obligatoria.
 

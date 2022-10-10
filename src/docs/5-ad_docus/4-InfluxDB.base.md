@@ -4,6 +4,12 @@
 
 # Temporary database: InfluxDB
 
+<!-- [es] -->
+
+# Base de datos temporal: InfluxDB
+
+<!-- [en] -->
+
 The information provided below is intended to be complementary to the project script and is not required reading.
 
 ## Motivation
@@ -68,13 +74,13 @@ You can find technical information on the HTTP requests they support and their f
 
 As mentioned above, compatibility between applications is essential to guarantee the proper functioning of the technological solution that is intended to be designed. This section provides the relationship of InfluxDB with the other software used in the development of the project.
 
-## With Node-RED
+### With Node-RED
 
 Within the Node-RED palette you can find several libraries that allow you to work with InfluxDB databases. The library used in the project that you will develop is the following:
 
 <https://flows.nodered.org/node/node-red-contrib-influxdb>
 
-## With Grafana
+### With Grafana
 
 In the official InfluxDB documentation you can find the procedure to configure an InfluxDB database in Grafana:
 
@@ -84,15 +90,13 @@ On the other hand, the official Grafana documentation provides specific informat
 
 <https://grafana.com/docs/grafana/latest/datasources/influxdb/>
 
-## With MATLAB
+### With MATLAB
 
 The following library will be used to work with InfluxDB from MATLAB:
 
 <https://github.com/EnricSala/influxdb-matlab>
 
 <!-- [es] -->
-
-# Base de datos temporal: InfluxDB
 
 La información que se aporta a continuación pretende ser complementaria al guion del proyecto y no es de lectura obligatoria.
 
@@ -158,13 +162,13 @@ Podéis encontrar información técnica de las peticiones HTTP que admiten y su 
 
 Como se ha mencionado anteriormente, la compatibilidad entre aplicaciones es fundamental para garantizar el buen funcionamiento de la solución tecnológica que se pretende diseñar. Este apartado aporta la relación de InfluxDB con los otros softwares que se utilizan en el desarrollo del proyecto.
 
-## Con Node-RED
+### Con Node-RED
 
 Dentro de la paleta de Node-RED se pueden encontrar varias librerías que permiten trabajar con bases de datos de InfluxDB. La librería utilizada en el proyecto que desarrollaréis es la siguiente:
 
 <https://flows.nodered.org/node/node-red-contrib-influxdb>
 
-## Con Grafana
+##3 Con Grafana
 
 En la documentación oficial de InfluxDB podéis encontrar el procedimiento para configurar, en Grafana, una base de datos de InfluxDB:
 
@@ -174,7 +178,7 @@ Por otro lado, en la documentación oficial de Grafana se ofrece información es
 
 <https://grafana.com/docs/grafana/latest/datasources/influxdb/>
 
-## Con MATLAB
+### Con MATLAB
 
 Se utilizará la siguiente librería para trabajar con InfluxDB desde MATLAB:
 

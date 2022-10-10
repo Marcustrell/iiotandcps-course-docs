@@ -117,7 +117,7 @@ In a new section you will have to generate a code to calculate the average of ea
 
 1. **Verify that the code performs the data processing.**
 
-## Fourth section: Write processed data
+### Fourth section: Write processed data
 
 Finally, you will prepare the obtained values to be able to send them to the database. These will be stored at the same date as the last value obtained from InfluxDB to perform the calculation.
 
@@ -143,7 +143,7 @@ If the result is successful, it is possible to write it to the database using th
 
 <!-- [es] -->
 
-## 1 - Conexión con la base de datos 
+### Primera sección - Conexión con la base de datos 
 
 Para poder acceder a la base de datos con la que queremos trabajar, es necesario definir las  credenciales empleando el siguiente código en un script de MATLAB: 
 
@@ -157,7 +157,7 @@ A continuación, todavía en el mismo script, utilizad el siguiente código para
 
 **1. Completad el código que contiene los parámetros de la máquina virtual y la base de  datos y confirmad que recibís el mensaje ‘InfluxDB is OK’ en la ventana de comandos  de MATLAB Online.** 
 
-## 2 - Lectura de datos medidos 
+### Segunda sección - Lectura de datos medidos 
 
 Ahora debéis realizar la lectura de datos, solicitando a la base de datos de InfluxDB que os  devuelva el último minuto de información registrada. El siguiente código os servirá de plantilla: 
 
@@ -177,7 +177,7 @@ https://docs.influxdata.com/influxdb/v1.8/query\_language/explore-data/#the-basi
 
 **2. Completad la configuración de la petición (después del *WHERE*) para que solicite los  datos del último minuto de información registrada cada vez que se ejecuta el script.  Verificad que funciona correctamente.** 
 
-## 3 - Procesado de datos 
+### Tercera sección - Procesado de datos 
 
 En una nueva sección deberéis generar un código de realice la media de cada uno de los cinco  parámetros recibidos en el último minuto de información registrada y disponible en la base de  datos.  
 
@@ -185,7 +185,7 @@ En una nueva sección deberéis generar un código de realice la media de cada u
 
 **1. Verificad que el código lleva a cabo el procesado de datos.** 
 
-## 4 - Escritura de datos procesado 
+### Cuarta sección - Escritura de datos procesado 
 
 Finalmente, prepararéis los valores obtenidos para poder enviarlos a la base de datos. Estos  serán almacenados a la misma fecha que el último valor obtenido de InfuxDB para realizar el  cálculo. 
 
@@ -225,6 +225,7 @@ First of all, you must download two files from Atenea:
 <https://drive.matlab.com/login>[](https://drive.matlab.com/login)
 
 [](https://drive.matlab.com/login)
+
 **As in the second part of the project, it is recommended that you respect the sections of the template provided, being separated using the characters “%%”. This will allow the code to be progressively executed to verify that it works as expected.**
 
 ### First section: Connect to the database

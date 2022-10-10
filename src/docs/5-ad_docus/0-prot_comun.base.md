@@ -4,6 +4,12 @@
 
 # Communications protocols
 
+<!-- [es] -->
+
+## Protocolos de comunicaciones
+
+<!-- [en] -->
+
 The information provided below is intended to be complementary to the project script and is not required reading.
 
 ## Motivation
@@ -125,8 +131,6 @@ Specifically, in the following link you can find the technical specifications of
 - The video **Video2\_MQTT.mp4** implements the theoretical example presented in the first video on the Node-RED tool.
 
 <!-- [es] -->
-
-# Protocolos de comunicaciones
 
 La información que se aporta a continuación pretende ser complementaria al guion del proyecto y no es de lectura obligatoria.
 

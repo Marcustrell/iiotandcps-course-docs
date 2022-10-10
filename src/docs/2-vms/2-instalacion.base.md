@@ -42,13 +42,11 @@ sudo apt-get install \
 
   lsb-release
 
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | 
-sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 echo \
 
-  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-
-  keyring.gpg] https://download.docker.com/linux/ubuntu \
+  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
 
   (lsb\_release -cs) stable" | sudo tee 
   /etc/apt/sources.list.d/docker.list > /dev/null
@@ -70,9 +68,7 @@ Next, you will need to download and install Docker-compose with the following co
 
 ```bash
 sudo curl -L 
-"https://github.com/docker/compose/releases/download/1.28.5/
-docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/
-docker-compose
+"https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
 ```
@@ -89,8 +85,7 @@ Now you must download the IIACPS\_base\_folder directory from Athena and send it
 Once cmd or Windows Terminal is open on your computer, enter the following command:
 
 ```bash
-scp -r -i <privatekeyrute> <originrute> userVM@ipVM:
-<destinationrute>
+scp -r -i <privatekeyrute> <originrute> userVM@ipVM:<destinationrute>
 ```
 
 NOTE: The -r in the command indicates that a complete directory is being sent, if you need to send only one file you can use the same command, removing the -r.
@@ -180,7 +175,7 @@ In the console you should see a list like the following. Keep in mind that it is
 
 ![](./img/1.29.png){: .center}
 
-# Configuring the ports of the virtual machine
+## Configuring the ports of the virtual machine
 
 In technological solutions such as the one you are implementing, it is necessary to access the configuration of the software elements to guarantee that their operation will comply with the required performance. To program and configure these programs it will be necessary to enable the communication ports in the virtual machine.
 
@@ -270,14 +265,11 @@ sudo apt-get install \
 
   lsb-release
 
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | 
-sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-
-keyring.gpg
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 echo \
 
-  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-
-  keyring.gpg] https://download.docker.com/linux/ubuntu \
+  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
 
   (lsb\_release -cs) stable" | sudo tee 
   /etc/apt/sources.list.d/docker.list > /dev/null
@@ -297,9 +289,7 @@ A continuación, deberéis descargar e instalar Docker-compose con los siguiente
 
 ```bash
 sudo curl -L 
-"https://github.com/docker/compose/releases/download/1.28.5/
-docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/
-docker-compose
+"https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
 ```
@@ -364,6 +354,7 @@ Tened cuidado de no añadir espacios o tabulaciones. Solo debéis editar la lín
 Cuando hayáis realizado la modificación, recordar que podéis guardar los cambios mediante “CTRL+O”, os pedirá que nombréis el archivo y no debéis modificar el nombre, así que será suficiente con pulsar “Enter”. Finalmente, para salir del editor de archivos *nano*, usad “CTRL+X”. El proceso de crear la imagen *custom* para Node-RED solo deberéis realizarlo una vez.
 
 Ahora, para verificar que la imagen se ha generado correctamente ejecutaréis el archivo “docker-compose.yml” (encontraréis el comando con el que hacerlo en la página siguiente). **Esta operación la deberéis realizar cada vez que os conectéis a la máquina virtual** ya que, aunque dejéis los contenedores montados, se eliminarán cuando la máquina virtual se apague automáticamente a las 00:00.
+
 ## Creación de imagen *custom* de Grafana
 Para el caso de Grafana también será necesario generar una imagen. Para montar la imagen, deberéis situaros dentro de la carpeta IIA\_CPS\_base\_folder y ejecutar el siguiente comando (NOTA: El punto después de **tag** está incluido en el comando):
 
@@ -404,7 +395,7 @@ En la consola deberíais visualizar una lista como la siguiente. Tened en cuenta
 
 ![](./img/1.29.png){: .center}
 
-# Configuración de los puertos de la máquina virtual
+## Configuración de los puertos de la máquina virtual
 En soluciones tecnológicas como la que estáis implementando, se requiere acceder a la configuración de los elementos de software para garantizar que su operación cumplirá con el funcionamiento requerido. Para programar y configurar dichos programas será necesario habilitar los puertos de comunicaciones en la máquina virtual.
 
 Debido a que InfluxDB se trata de una base de datos a la que no vamos a acceder des del exterior, sino que accederán las otras aplicaciones cuando realicen operaciones de lectura o escritura de datos, solo deberéis habilitar los puertos de Node-RED y Grafana. **Por defecto, Node-RED ocupa el puerto 1880 y Grafana el 3000.**

@@ -4,6 +4,12 @@
 
 # MATLAB Online, access and connection with InfluxDB
 
+<!-- [es] -->
+
+# MATLAB Online, acceso y conexión con InfluxDB
+
+<!-- [en] -->
+
 The information provided below is intended to be complementary to the project script and is not required reading.
 
 ## Motivation
@@ -29,8 +35,6 @@ The library that you will use so that MATLAB Online can interact with InfluxDB d
 In the practice script you will find templates where you will be told with what data to complete the calls to the functions that are included in this library.
 
 <!-- [es] -->
-
-# MATLAB Online, acceso y conexión con InfluxDB
 
 La información que se aporta a continuación pretende ser complementaria al guion del proyecto y no es de lectura obligatoria.
 
