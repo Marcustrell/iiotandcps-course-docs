@@ -18,7 +18,7 @@ First of all, you must identify the name of the Influxdb container, as indicated
 
 Now you must enter the following command to access the container terminal:
 ```bash
- sudo docker exec -it <nombre\_del\_contenedor> bash
+ sudo docker exec -it <name_of_the_container> bash
 ```
 Next, you must enter the word "influx" to access the InfluxDB command line interface, receiving a response like the one in the following screenshot.
 
@@ -27,7 +27,7 @@ Next, you must enter the word "influx" to access the InfluxDB command line inter
 Finally, using the following command you can generate a database:
 
 ```bash
-> create database <nombre\_de\_la\_base\_de\_datos>
+> create database <name_of_the_database>
 ```
 To verify that you have done it correctly, you can access the list of databases created by entering the following command:
 
@@ -52,7 +52,7 @@ En primer lugar, deberéis identificar el nombre del contenedor de Influxdb, com
 Ahora deberéis introducir el siguiente comando para acceder al terminal del contenedor:
 
 ```bash
-sudo docker exec -it <nombre\_del\_contenedor> bash
+sudo docker exec -it <nombre_del_contenedor> bash
 ```
 
 A continuación, deberéis introducir la palabra “influx” para acceder a la interfaz de línea de comandos de InfluxDB, recibiendo una respuesta como la de la siguiente captura.
@@ -62,7 +62,7 @@ A continuación, deberéis introducir la palabra “influx” para acceder a la 
 Finalmente, mediante el siguiente comando podréis generar una base de datos:
 
 ```bash
-> create database <nombre\_de\_la\_base\_de\_datos>
+> create database <nombre_de_la_base_de_datos>
 ```
 
 Para verificar que lo habéis hecho correctamente, podéis acceder a la lista de bases de datos creadas introduciendo el siguiente comando:

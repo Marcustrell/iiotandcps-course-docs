@@ -105,16 +105,16 @@ Click Update or Add when you're done to save your changes.
 Repeat the process that was carried out to create the database in the Influx container ([click here to return to the instructions for that process](#_heading=h.z337ya)). Once inside the Influx container, enter the following commands:
 
 ```bash
-> use <name\_of\_the\_database>
+> use <name_of_the_database>
 ```
 
 This command is used to indicate that from now on the commands entered will refer to a specific database.
 
 ```bash
-> select \* from <name\_of\_series\_of\_measures>
+> select * from <name_of_series_of_measures>
 ```
 
-This is how we tell influx that we want to display all the columns (\*) of (from) a particular series of measurements. As an example we show you a response similar to the one you should receive in the terminal.
+This is how we tell influx that we want to display all the columns (*) of (from) a particular series of measurements. As an example we show you a response similar to the one you should receive in the terminal.
 
 ![](./img/1.44.png){: .center}
 
@@ -215,16 +215,16 @@ Haced clic en *Update* o *Add* cuando terminéis para guardar los cambios.
 Repetid el proceso que se ha llevado a cabo para crear la base de datos en el contenedor de Influx ([haced clic aquí para volver a las instrucciones para dicho proceso](#_Acceso_a_la)). Una vez dentro del contenedor de Influx, introducid los siguientes comandos:
 
 ```bash
-> use <nombre\_de\_la\_base\_de\_datos>
+> use <nombre_de_la_base_de_datos>
 ```
 
 Este comando sirve para indicar que a partir de ahora los comandos introducidos se referirán a una base de datos concreta.
 
 ```bash
-> select \* from <nombre\_de\_la\_serie\_de\_medidas>
+> select * from <nombre_de_la_serie_de_medidas>
 ```
 
-Así le indicamos a influx que queremos visualiar todas las columnas (\*) de (*from*) una serie de medidas en particular. Como ejemplo os mostramos una respuesta semejante a la que deberíais recibir en el terminal. 
+Así le indicamos a influx que queremos visualiar todas las columnas (*) de (*from*) una serie de medidas en particular. Como ejemplo os mostramos una respuesta semejante a la que deberíais recibir en el terminal. 
 
 ![](./img/1.44.png){: .center}
 
