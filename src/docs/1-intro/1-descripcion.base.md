@@ -147,7 +147,6 @@ Teniendo en cuenta los objetivos que se han mencionado en el apartado anterior, 
 - **Demostrar mediante capturas de pantalla** que sois capaces de generar datos sintéticos en Node-RED y los podéis visualizar en una base de datos de InfluxDB.
 
 - **Demostrar mediante capturas de pantalla** que el generáis un *dashboard* de Grafana que os permite visualizar los datos almacenados en una base de datos de InfluxDB.
-![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.002.png)
 
 > **A lo largo de este documento se indicará claramente en que puntos del proceso (en concreto son 3) se espera que toméis capturas para demostrar que vuestra implementación funciona correctamente. Se empleará un recuadro verde como el que enmarca este texto para su facilitar al máximo su identificación.**
 
